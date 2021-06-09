@@ -1,0 +1,29 @@
+package com.example.sqlitetp5;
+
+public class Produit {
+    private long code;
+    private String description;
+    private float prix;
+    public Produit( String description, float prix) {
+        this.description = description;
+        this.prix = prix;
+    }
+    public long getCode() {
+        return code; }
+    public void setCode(long code) {
+        this.code = code;
+    }
+    public String getDescription() {
+        return description;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+
+    }
+    public float getPrix() {
+        return prix;
+    }
+    public void setPrix(float prix) {
+        this.prix = prix;
+    }
+}
